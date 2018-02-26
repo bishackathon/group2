@@ -23,6 +23,7 @@ Partial Class GS
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'WebBrowser1
@@ -36,11 +37,21 @@ Partial Class GS
         Me.WebBrowser1.TabIndex = 0
         Me.WebBrowser1.Url = New System.Uri("https://www.gamestop.com/", System.UriKind.Absolute)
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 12)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(134, 49)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'GS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1461, 698)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Name = "GS"
         Me.Text = "GS"
@@ -49,4 +60,5 @@ Partial Class GS
 
     End Sub
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class
