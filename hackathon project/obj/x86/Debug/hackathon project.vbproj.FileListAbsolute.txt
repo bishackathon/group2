@@ -8,3 +8,6 @@ C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\D
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon project.xml
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon project.pdb
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.Form2.resources
+C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.LeagueOfLegends.resources
+C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.PUBG.resources
+C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.Injustice_2.resources

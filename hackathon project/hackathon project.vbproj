@@ -85,6 +85,18 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Injustice 2.Designer.vb">
+      <DependentUpon>Injustice 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Injustice 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeagueOfLegends.Designer.vb">
+      <DependentUpon>LeagueOfLegends.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueOfLegends.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,6 +112,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PUBG.Designer.vb">
+      <DependentUpon>PUBG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUBG.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -108,11 +126,20 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Injustice 2.resx">
+      <DependentUpon>Injustice 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeagueOfLegends.resx">
+      <DependentUpon>LeagueOfLegends.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUBG.resx">
+      <DependentUpon>PUBG.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
