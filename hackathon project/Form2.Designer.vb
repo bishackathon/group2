@@ -38,7 +38,6 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
@@ -196,18 +195,9 @@ Partial Class Form2
         Me.Label1.Size = New System.Drawing.Size(0, 20)
         Me.Label1.TabIndex = 25
         '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(1071, 605)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(86, 41)
-        Me.Button4.TabIndex = 43
-        Me.Button4.Text = "Page3"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(1071, 547)
+        Me.Button5.Location = New System.Drawing.Point(1075, 598)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(86, 41)
         Me.Button5.TabIndex = 44
@@ -366,7 +356,6 @@ Partial Class Form2
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button3)
@@ -416,7 +405,6 @@ Partial Class Form2
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox

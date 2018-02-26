@@ -91,6 +91,12 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GY.Designer.vb">
+      <DependentUpon>GY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GY.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Injustice 2.Designer.vb">
       <DependentUpon>Injustice 2.vb</DependentUpon>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GY.resx">
+      <DependentUpon>GY.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Injustice 2.resx">
       <DependentUpon>Injustice 2.vb</DependentUpon>

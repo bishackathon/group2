@@ -359,7 +359,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(1482, 664)
+        Me.ClientSize = New System.Drawing.Size(1814, 933)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.CheckBox3)

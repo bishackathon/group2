@@ -97,4 +97,9 @@
         Me.Visible = False
         Injustice_2.Visible = True
     End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        Me.Visible = False
+        GY.Visible = True
+    End Sub
 End Class

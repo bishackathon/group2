@@ -14,3 +14,4 @@ C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\D
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.RE7.resources
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.Prey.resources
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.CSGO.resources
+C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.GY.resources
