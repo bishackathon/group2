@@ -67,7 +67,7 @@
                 If TextBox5.Text = "" Then
                     TextBox5.Text = "Injustice 2"
                 Else
-                    TextBox6.Text = "Injustice 2"
+                    TextBox6.Text = "Injustice 2k"
                 End If
             End If
         Else
