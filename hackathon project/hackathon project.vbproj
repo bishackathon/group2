@@ -91,10 +91,10 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GY.Designer.vb">
-      <DependentUpon>GY.vb</DependentUpon>
+    <Compile Include="GS.Designer.vb">
+      <DependentUpon>GS.vb</DependentUpon>
     </Compile>
-    <Compile Include="GY.vb">
+    <Compile Include="GS.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Injustice 2.Designer.vb">
@@ -142,6 +142,12 @@
     <Compile Include="RE7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TestForm.Designer.vb">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CSGO.resx">
@@ -153,8 +159,8 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GY.resx">
-      <DependentUpon>GY.vb</DependentUpon>
+    <EmbeddedResource Include="GS.resx">
+      <DependentUpon>GS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Injustice 2.resx">
       <DependentUpon>Injustice 2.vb</DependentUpon>
@@ -176,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RE7.resx">
       <DependentUpon>RE7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

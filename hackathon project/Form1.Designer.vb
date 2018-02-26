@@ -54,6 +54,8 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -353,6 +355,24 @@ Partial Class Form1
         Me.PictureBox5.TabIndex = 35
         Me.PictureBox5.TabStop = False
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(1242, 325)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(179, 63)
+        Me.Button5.TabIndex = 36
+        Me.Button5.Text = "Steam"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(1242, 394)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(179, 63)
+        Me.Button6.TabIndex = 37
+        Me.Button6.Text = "GameStop"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -360,6 +380,8 @@ Partial Class Form1
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(1814, 933)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.CheckBox3)
@@ -434,5 +456,7 @@ Partial Class Form1
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
 
 End Class

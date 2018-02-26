@@ -98,8 +98,15 @@
         Injustice_2.Visible = True
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+
+    Private Sub Button5_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
         Me.Visible = False
-        GY.Visible = True
+        TestForm.Visible = True
+    End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        Me.Visible = False
+        GS.Visible = True
     End Sub
 End Class
