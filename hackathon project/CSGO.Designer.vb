@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Injustice_2
+Partial Class CSGO
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Injustice_2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Injustice_2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CSGO))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -54,7 +54,7 @@ Partial Class Injustice_2
         Me.Label7.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(30, 356)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(1687, 434)
+        Me.Label7.Size = New System.Drawing.Size(1562, 182)
         Me.Label7.TabIndex = 48
         Me.Label7.Text = resources.GetString("Label7.Text")
         '
@@ -90,9 +90,9 @@ Partial Class Injustice_2
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(292, 195)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(180, 28)
+        Me.Label4.Size = New System.Drawing.Size(168, 28)
         Me.Label4.TabIndex = 45
-        Me.Label4.Text = "Price: 2750 INR"
+        Me.Label4.Text = "Price: 375 INR"
         '
         'Label3
         '
@@ -102,9 +102,9 @@ Partial Class Injustice_2
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(292, 152)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(350, 28)
+        Me.Label3.Size = New System.Drawing.Size(601, 28)
         Me.Label3.TabIndex = 44
-        Me.Label3.Text = "Developer: NetherRealm Studios"
+        Me.Label3.Text = "Developer: Valve corporation,Hidden path entertainment"
         '
         'Label2
         '
@@ -114,9 +114,9 @@ Partial Class Injustice_2
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(292, 96)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(378, 43)
+        Me.Label2.Size = New System.Drawing.Size(202, 43)
         Me.Label2.TabIndex = 43
-        Me.Label2.Text = "Genre: Action, Fighting"
+        Me.Label2.Text = "Genre: FPS"
         '
         'Label1
         '
@@ -126,17 +126,17 @@ Partial Class Injustice_2
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 26.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(292, 22)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(258, 62)
+        Me.Label1.Size = New System.Drawing.Size(756, 62)
         Me.Label1.TabIndex = 42
-        Me.Label1.Text = "Injustice 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.Text = "Counter Strike: Global Offensive" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 43)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 61)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(274, 211)
+        Me.PictureBox1.Size = New System.Drawing.Size(274, 144)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 40
         Me.PictureBox1.TabStop = False
@@ -150,11 +150,11 @@ Partial Class Injustice_2
         Me.PictureBox2.TabIndex = 41
         Me.PictureBox2.TabStop = False
         '
-        'Injustice_2
+        'CSGO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1484, 707)
+        Me.ClientSize = New System.Drawing.Size(1421, 640)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -165,8 +165,8 @@ Partial Class Injustice_2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Name = "Injustice_2"
-        Me.Text = "Injustice_2"
+        Me.Name = "CSGO"
+        Me.Text = "CSGO"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

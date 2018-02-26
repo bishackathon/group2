@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Injustice_2
+Partial Class Prey
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Injustice_2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Injustice_2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Prey))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -39,10 +39,10 @@ Partial Class Injustice_2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1377, 30)
+        Me.Button1.Location = New System.Drawing.Point(1377, 28)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(139, 53)
-        Me.Button1.TabIndex = 49
+        Me.Button1.TabIndex = 39
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -52,10 +52,10 @@ Partial Class Injustice_2
         Me.Label7.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label7.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(30, 356)
+        Me.Label7.Location = New System.Drawing.Point(30, 354)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(1687, 434)
-        Me.Label7.TabIndex = 48
+        Me.Label7.Size = New System.Drawing.Size(1780, 290)
+        Me.Label7.TabIndex = 38
         Me.Label7.Text = resources.GetString("Label7.Text")
         '
         'Label6
@@ -64,11 +64,11 @@ Partial Class Injustice_2
         Me.Label6.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(292, 280)
+        Me.Label6.Location = New System.Drawing.Point(292, 278)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(151, 28)
-        Me.Label6.TabIndex = 47
-        Me.Label6.Text = "Platform: PC"
+        Me.Label6.Size = New System.Drawing.Size(203, 28)
+        Me.Label6.TabIndex = 37
+        Me.Label6.Text = "Platform: PC, PS4"
         '
         'Label5
         '
@@ -76,11 +76,11 @@ Partial Class Injustice_2
         Me.Label5.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(292, 236)
+        Me.Label5.Location = New System.Drawing.Point(292, 234)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(140, 28)
-        Me.Label5.TabIndex = 46
-        Me.Label5.Text = "Rating: 9/10"
+        Me.Label5.TabIndex = 36
+        Me.Label5.Text = "Rating: 8/10"
         '
         'Label4
         '
@@ -88,11 +88,11 @@ Partial Class Injustice_2
         Me.Label4.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(292, 195)
+        Me.Label4.Location = New System.Drawing.Point(292, 193)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(180, 28)
-        Me.Label4.TabIndex = 45
-        Me.Label4.Text = "Price: 2750 INR"
+        Me.Label4.TabIndex = 35
+        Me.Label4.Text = "Price: 2670 INR"
         '
         'Label3
         '
@@ -100,11 +100,11 @@ Partial Class Injustice_2
         Me.Label3.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(292, 152)
+        Me.Label3.Location = New System.Drawing.Point(292, 150)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(350, 28)
-        Me.Label3.TabIndex = 44
-        Me.Label3.Text = "Developer: NetherRealm Studios"
+        Me.Label3.Size = New System.Drawing.Size(289, 28)
+        Me.Label3.TabIndex = 34
+        Me.Label3.Text = "Developer: Arkane Studios"
         '
         'Label2
         '
@@ -112,11 +112,11 @@ Partial Class Injustice_2
         Me.Label2.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(292, 96)
+        Me.Label2.Location = New System.Drawing.Point(292, 94)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(378, 43)
-        Me.Label2.TabIndex = 43
-        Me.Label2.Text = "Genre: Action, Fighting"
+        Me.Label2.Size = New System.Drawing.Size(448, 43)
+        Me.Label2.TabIndex = 33
+        Me.Label2.Text = "Genre: Sci-Fi, Action, Space"
         '
         'Label1
         '
@@ -124,37 +124,37 @@ Partial Class Injustice_2
         Me.Label1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 26.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(292, 22)
+        Me.Label1.Location = New System.Drawing.Point(292, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(258, 62)
-        Me.Label1.TabIndex = 42
-        Me.Label1.Text = "Injustice 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.Size = New System.Drawing.Size(129, 62)
+        Me.Label1.TabIndex = 32
+        Me.Label1.Text = "Prey"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 43)
+        Me.PictureBox1.Location = New System.Drawing.Point(48, 11)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(274, 211)
+        Me.PictureBox1.Size = New System.Drawing.Size(194, 266)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 40
+        Me.PictureBox1.TabIndex = 30
         Me.PictureBox1.TabStop = False
         '
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 13)
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 11)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(274, 266)
-        Me.PictureBox2.TabIndex = 41
+        Me.PictureBox2.TabIndex = 31
         Me.PictureBox2.TabStop = False
         '
-        'Injustice_2
+        'Prey
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1484, 707)
+        Me.ClientSize = New System.Drawing.Size(1421, 644)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -165,8 +165,8 @@ Partial Class Injustice_2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Name = "Injustice_2"
-        Me.Text = "Injustice_2"
+        Me.Name = "Prey"
+        Me.Text = "Prey"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

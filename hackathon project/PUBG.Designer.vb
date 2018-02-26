@@ -167,6 +167,7 @@ Partial Class PUBG
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "PUBG"
         Me.Text = "PUBG"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
