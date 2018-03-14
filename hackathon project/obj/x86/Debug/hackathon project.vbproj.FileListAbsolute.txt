@@ -16,3 +16,4 @@ C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\D
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.CSGO.resources
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.TestForm.resources
 C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.GS.resources
+C:\Users\ERIC CLOSTON\Documents\IT\hackathon project\hackathon project\obj\x86\Debug\hackathon_project.fb.resources
