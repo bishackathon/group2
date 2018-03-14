@@ -109,4 +109,13 @@
         Me.Visible = False
         GS.Visible = True
     End Sub
+
+    Private Sub Label13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label13.Click
+
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        Me.Visible = False
+        fb.Visible = True
+    End Sub
 End Class

@@ -78,6 +78,12 @@
     <Compile Include="CSGO.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fb.Designer.vb">
+      <DependentUpon>fb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fb.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
   <ItemGroup>
     <EmbeddedResource Include="CSGO.resx">
       <DependentUpon>CSGO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fb.resx">
+      <DependentUpon>fb.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
